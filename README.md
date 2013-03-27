@@ -1,7 +1,7 @@
 tous-les-jours
 ==============
 
-Tous Les Jours is a open source 3D headtracking API coded in C++.
+Tous Les Jours is an open source 3D headtracking API coded in C++.
 
 Project Goal
 ------------
