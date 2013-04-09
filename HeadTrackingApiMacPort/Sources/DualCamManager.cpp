@@ -186,10 +186,37 @@ void DualCamManager::startStream(int camId1, int camId2)//be careful to modify d
 
 void DualCamManager::findVideoDevices() //Really need to modify those codes. **
 {
-    int i = 0;
-    int j = 0;
-	camId1 = i;
-	camId2 = j;
+    int camNo1 = -1 ;
+    int camNo2 = -1;
+    bool found = false;
+    
+    CvCapture* capture;
+    for (int i=1; i<=1200; i++)
+    {
+        capture = cvCreateCameraCapture(i);
+        if (capture){
+            if(found){
+                camNo1 = i;
+                std::cout<<"Second Camera : "<<i<<std::endl;
+                break;
+            }
+            else{
+                camNo2 = i;
+                found = true;
+                std::cout<<"First Camera : "<<i<<std::endl;
+                continue;
+            }
+            cvReleaseCapture(&capture);
+        }
+    }
+    if(camNo1==(-1))
+        std::cout<<"Failed to find 1st camera";
+    if(camNo2==(-1))
+        std::cout<<"Failed to find 2nd camera";
+	camId1 = camNo1;
+	camId2 = camNo2;
+    if(camNo1==camNo2)
+        std::cout<<"There's no more 1 camera"; //Debugging Function
 }
 
 void DualCamManager::run()

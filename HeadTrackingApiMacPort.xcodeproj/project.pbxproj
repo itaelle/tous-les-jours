@@ -24,6 +24,9 @@
 		A4E3CC941714AE6F001553AA /* libopencv_ts.2.4.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3CC831714AE6F001553AA /* libopencv_ts.2.4.4.dylib */; };
 		A4E3CC951714AE6F001553AA /* libopencv_video.2.4.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3CC841714AE6F001553AA /* libopencv_video.2.4.4.dylib */; };
 		A4E3CC961714AE6F001553AA /* libopencv_videostab.2.4.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3CC851714AE6F001553AA /* libopencv_videostab.2.4.4.dylib */; };
+		A4FC31D01714B3D700EC9854 /* CalibrationManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4FC31CB1714B3D700EC9854 /* CalibrationManager.cpp */; };
+		A4FC31D11714B3D700EC9854 /* DualCamManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4FC31CD1714B3D700EC9854 /* DualCamManager.cpp */; };
+		A4FC31D21714B3D700EC9854 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4FC31CF1714B3D700EC9854 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -56,11 +59,11 @@
 		A4E3CC831714AE6F001553AA /* libopencv_ts.2.4.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_ts.2.4.4.dylib; path = HeadTrackingApiMacPort/Frameworks/libopencv_ts.2.4.4.dylib; sourceTree = "<group>"; };
 		A4E3CC841714AE6F001553AA /* libopencv_video.2.4.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_video.2.4.4.dylib; path = HeadTrackingApiMacPort/Frameworks/libopencv_video.2.4.4.dylib; sourceTree = "<group>"; };
 		A4E3CC851714AE6F001553AA /* libopencv_videostab.2.4.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_videostab.2.4.4.dylib; path = HeadTrackingApiMacPort/Frameworks/libopencv_videostab.2.4.4.dylib; sourceTree = "<group>"; };
-		A4E3CC971714AE7F001553AA /* CalibrationManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CalibrationManager.cpp; path = Sources/CalibrationManager.cpp; sourceTree = "<group>"; };
-		A4E3CC981714AE7F001553AA /* CalibrationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CalibrationManager.h; path = Sources/CalibrationManager.h; sourceTree = "<group>"; };
-		A4E3CC991714AE7F001553AA /* DualCamManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DualCamManager.cpp; path = Sources/DualCamManager.cpp; sourceTree = "<group>"; };
-		A4E3CC9A1714AE7F001553AA /* DualCamManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DualCamManager.h; path = Sources/DualCamManager.h; sourceTree = "<group>"; };
-		A4E3CC9B1714AE7F001553AA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = Sources/main.cpp; sourceTree = "<group>"; };
+		A4FC31921714B35700EC9854 /* DualCamManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DualCamManager.h; path = Sources/DualCamManager.h; sourceTree = "<group>"; };
+		A4FC31CB1714B3D700EC9854 /* CalibrationManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CalibrationManager.cpp; path = Sources/CalibrationManager.cpp; sourceTree = "<group>"; };
+		A4FC31CD1714B3D700EC9854 /* DualCamManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DualCamManager.cpp; path = Sources/DualCamManager.cpp; sourceTree = "<group>"; };
+		A4FC31CF1714B3D700EC9854 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = Sources/main.cpp; sourceTree = "<group>"; };
+		A4FC31D31714B44500EC9854 /* CalibrationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CalibrationManager.h; path = Sources/CalibrationManager.h; sourceTree = "<group>"; };
 		A4FCB5A41714781E0062C756 /* HeadTrackingApiMacPort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HeadTrackingApiMacPort; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -112,11 +115,11 @@
 		A4FCB5A61714781E0062C756 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				A4E3CC971714AE7F001553AA /* CalibrationManager.cpp */,
-				A4E3CC981714AE7F001553AA /* CalibrationManager.h */,
-				A4E3CC991714AE7F001553AA /* DualCamManager.cpp */,
-				A4E3CC9A1714AE7F001553AA /* DualCamManager.h */,
-				A4E3CC9B1714AE7F001553AA /* main.cpp */,
+				A4FC31CB1714B3D700EC9854 /* CalibrationManager.cpp */,
+				A4FC31D31714B44500EC9854 /* CalibrationManager.h */,
+				A4FC31CD1714B3D700EC9854 /* DualCamManager.cpp */,
+				A4FC31CF1714B3D700EC9854 /* main.cpp */,
+				A4FC31921714B35700EC9854 /* DualCamManager.h */,
 			);
 			name = Sources;
 			path = HeadTrackingApiMacPort;
@@ -197,6 +200,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4FC31D01714B3D700EC9854 /* CalibrationManager.cpp in Sources */,
+				A4FC31D11714B3D700EC9854 /* DualCamManager.cpp in Sources */,
+				A4FC31D21714B3D700EC9854 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
