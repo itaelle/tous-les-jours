@@ -1,4 +1,4 @@
-This Branch is for MAC OS X Verstion of HeadTracking API
+This Branch is for MAC OS X Version of HeadTracking API
 ========================================================
 
 tous-les-jours
