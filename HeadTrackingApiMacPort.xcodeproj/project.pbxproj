@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A40EFE301714ABC1003E76CD /* DualCamManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A40EFE2F1714ABC1003E76CD /* DualCamManager.cpp */; };
+		A4C588EB17149D0A00BD1B54 /* CalibrationManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4C588EA17149D0A00BD1B54 /* CalibrationManager.cpp */; };
 		A4FCB5A81714781E0062C756 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4FCB5A71714781E0062C756 /* main.cpp */; };
-		A4FCB5AA1714781E0062C756 /* HeadTrackingApiMacPort.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A4FCB5A91714781E0062C756 /* HeadTrackingApiMacPort.1 */; };
 		A4FCB5C1171493070062C756 /* libopencv_calib3d.2.4.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FCB5B0171493070062C756 /* libopencv_calib3d.2.4.4.dylib */; };
 		A4FCB5C2171493070062C756 /* libopencv_contrib.2.4.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FCB5B1171493070062C756 /* libopencv_contrib.2.4.4.dylib */; };
 		A4FCB5C3171493070062C756 /* libopencv_core.2.4.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FCB5B2171493070062C756 /* libopencv_core.2.4.4.dylib */; };
@@ -35,16 +36,18 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				A4FCB5AA1714781E0062C756 /* HeadTrackingApiMacPort.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A40EFE2F1714ABC1003E76CD /* DualCamManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DualCamManager.cpp; sourceTree = "<group>"; };
+		A4C588E817149C6A00BD1B54 /* CalibrationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalibrationManager.h; sourceTree = "<group>"; };
+		A4C588E917149CAC00BD1B54 /* DualCamManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DualCamManager.h; sourceTree = "<group>"; };
+		A4C588EA17149D0A00BD1B54 /* CalibrationManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CalibrationManager.cpp; sourceTree = "<group>"; };
 		A4FCB5A41714781E0062C756 /* HeadTrackingApiMacPort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HeadTrackingApiMacPort; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4FCB5A71714781E0062C756 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		A4FCB5A91714781E0062C756 /* HeadTrackingApiMacPort.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = HeadTrackingApiMacPort.1; sourceTree = "<group>"; };
 		A4FCB5B0171493070062C756 /* libopencv_calib3d.2.4.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_calib3d.2.4.4.dylib; sourceTree = "<group>"; };
 		A4FCB5B1171493070062C756 /* libopencv_contrib.2.4.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_contrib.2.4.4.dylib; sourceTree = "<group>"; };
 		A4FCB5B2171493070062C756 /* libopencv_core.2.4.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_core.2.4.4.dylib; sourceTree = "<group>"; };
@@ -96,7 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				A4FCB5D2171493150062C756 /* Frameworks */,
-				A4FCB5A61714781E0062C756 /* HeadTrackingApiMacPort */,
+				A4FCB5A61714781E0062C756 /* Sources */,
 				A4FCB5A51714781E0062C756 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,12 +112,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A4FCB5A61714781E0062C756 /* HeadTrackingApiMacPort */ = {
+		A4FCB5A61714781E0062C756 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				A4FCB5A71714781E0062C756 /* main.cpp */,
-				A4FCB5A91714781E0062C756 /* HeadTrackingApiMacPort.1 */,
+				A4C588E817149C6A00BD1B54 /* CalibrationManager.h */,
+				A4C588EA17149D0A00BD1B54 /* CalibrationManager.cpp */,
+				A40EFE2F1714ABC1003E76CD /* DualCamManager.cpp */,
+				A4C588E917149CAC00BD1B54 /* DualCamManager.h */,
 			);
+			name = Sources;
 			path = HeadTrackingApiMacPort;
 			sourceTree = "<group>";
 		};
@@ -194,6 +201,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4FCB5A81714781E0062C756 /* main.cpp in Sources */,
+				A4C588EB17149D0A00BD1B54 /* CalibrationManager.cpp in Sources */,
+				A40EFE301714ABC1003E76CD /* DualCamManager.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +311,7 @@
 				A4FCB5AF1714781E0062C756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
