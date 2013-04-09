@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4FCB5A81714781E0062C756 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4FCB5A71714781E0062C756 /* main.cpp */; };
+		A4FCB5AA1714781E0062C756 /* HeadTrackingApiMacPort.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A4FCB5A91714781E0062C756 /* HeadTrackingApiMacPort.1 */; };
+		A4FCB5C1171493070062C756 /* libopencv_calib3d.2.4.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FCB5B0171493070062C756 /* libopencv_calib3d.2.4.4.dylib */; };
+		A4FCB5C2171493070062C756 /* libopencv_contrib.2.4.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FCB5B1171493070062C756 /* libopencv_contrib.2.4.4.dylib */; };
+		A4FCB5C3171493070062C756 /* libopencv_core.2.4.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FCB5B2171493070062C756 /* libopencv_core.2.4.4.dylib */; };
+		A4FCB5C4171493070062C756 /* libopencv_features2d.2.4.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FCB5B3171493070062C756 /* libopencv_features2d.2.4.4.dylib */; };
+		A4FCB5C5171493070062C756 /* libopencv_flann.2.4.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FCB5B4171493070062C756 /* libopencv_flann.2.4.4.dylib */; };
+		A4FCB5C6171493070062C756 /* libopencv_gpu.2.4.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FCB5B5171493070062C756 /* libopencv_gpu.2.4.4.dylib */; };
+		A4FCB5C7171493070062C756 /* libopencv_highgui.2.4.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FCB5B6171493070062C756 /* libopencv_highgui.2.4.4.dylib */; };
+		A4FCB5C8171493070062C756 /* libopencv_imgproc.2.4.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FCB5B7171493070062C756 /* libopencv_imgproc.2.4.4.dylib */; };
+		A4FCB5C9171493070062C756 /* libopencv_legacy.2.4.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FCB5B8171493070062C756 /* libopencv_legacy.2.4.4.dylib */; };
+		A4FCB5CA171493070062C756 /* libopencv_ml.2.4.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FCB5B9171493070062C756 /* libopencv_ml.2.4.4.dylib */; };
+		A4FCB5CB171493070062C756 /* libopencv_nonfree.2.4.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FCB5BA171493070062C756 /* libopencv_nonfree.2.4.4.dylib */; };
+		A4FCB5CC171493070062C756 /* libopencv_objdetect.2.4.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FCB5BB171493070062C756 /* libopencv_objdetect.2.4.4.dylib */; };
+		A4FCB5CD171493070062C756 /* libopencv_photo.2.4.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FCB5BC171493070062C756 /* libopencv_photo.2.4.4.dylib */; };
+		A4FCB5CE171493070062C756 /* libopencv_stitching.2.4.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FCB5BD171493070062C756 /* libopencv_stitching.2.4.4.dylib */; };
+		A4FCB5CF171493070062C756 /* libopencv_ts.2.4.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FCB5BE171493070062C756 /* libopencv_ts.2.4.4.dylib */; };
+		A4FCB5D0171493070062C756 /* libopencv_video.2.4.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FCB5BF171493070062C756 /* libopencv_video.2.4.4.dylib */; };
+		A4FCB5D1171493070062C756 /* libopencv_videostab.2.4.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4FCB5C0171493070062C756 /* libopencv_videostab.2.4.4.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A4FCB5A21714781E0062C756 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				A4FCB5AA1714781E0062C756 /* HeadTrackingApiMacPort.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A4FCB5A41714781E0062C756 /* HeadTrackingApiMacPort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HeadTrackingApiMacPort; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FCB5A71714781E0062C756 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A4FCB5A91714781E0062C756 /* HeadTrackingApiMacPort.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = HeadTrackingApiMacPort.1; sourceTree = "<group>"; };
+		A4FCB5B0171493070062C756 /* libopencv_calib3d.2.4.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_calib3d.2.4.4.dylib; sourceTree = "<group>"; };
+		A4FCB5B1171493070062C756 /* libopencv_contrib.2.4.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_contrib.2.4.4.dylib; sourceTree = "<group>"; };
+		A4FCB5B2171493070062C756 /* libopencv_core.2.4.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_core.2.4.4.dylib; sourceTree = "<group>"; };
+		A4FCB5B3171493070062C756 /* libopencv_features2d.2.4.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_features2d.2.4.4.dylib; sourceTree = "<group>"; };
+		A4FCB5B4171493070062C756 /* libopencv_flann.2.4.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_flann.2.4.4.dylib; sourceTree = "<group>"; };
+		A4FCB5B5171493070062C756 /* libopencv_gpu.2.4.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_gpu.2.4.4.dylib; sourceTree = "<group>"; };
+		A4FCB5B6171493070062C756 /* libopencv_highgui.2.4.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_highgui.2.4.4.dylib; sourceTree = "<group>"; };
+		A4FCB5B7171493070062C756 /* libopencv_imgproc.2.4.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_imgproc.2.4.4.dylib; sourceTree = "<group>"; };
+		A4FCB5B8171493070062C756 /* libopencv_legacy.2.4.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_legacy.2.4.4.dylib; sourceTree = "<group>"; };
+		A4FCB5B9171493070062C756 /* libopencv_ml.2.4.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_ml.2.4.4.dylib; sourceTree = "<group>"; };
+		A4FCB5BA171493070062C756 /* libopencv_nonfree.2.4.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_nonfree.2.4.4.dylib; sourceTree = "<group>"; };
+		A4FCB5BB171493070062C756 /* libopencv_objdetect.2.4.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_objdetect.2.4.4.dylib; sourceTree = "<group>"; };
+		A4FCB5BC171493070062C756 /* libopencv_photo.2.4.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_photo.2.4.4.dylib; sourceTree = "<group>"; };
+		A4FCB5BD171493070062C756 /* libopencv_stitching.2.4.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_stitching.2.4.4.dylib; sourceTree = "<group>"; };
+		A4FCB5BE171493070062C756 /* libopencv_ts.2.4.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_ts.2.4.4.dylib; sourceTree = "<group>"; };
+		A4FCB5BF171493070062C756 /* libopencv_video.2.4.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_video.2.4.4.dylib; sourceTree = "<group>"; };
+		A4FCB5C0171493070062C756 /* libopencv_videostab.2.4.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_videostab.2.4.4.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4FCB5A11714781E0062C756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FCB5C1171493070062C756 /* libopencv_calib3d.2.4.4.dylib in Frameworks */,
+				A4FCB5C2171493070062C756 /* libopencv_contrib.2.4.4.dylib in Frameworks */,
+				A4FCB5C3171493070062C756 /* libopencv_core.2.4.4.dylib in Frameworks */,
+				A4FCB5C4171493070062C756 /* libopencv_features2d.2.4.4.dylib in Frameworks */,
+				A4FCB5C5171493070062C756 /* libopencv_flann.2.4.4.dylib in Frameworks */,
+				A4FCB5C6171493070062C756 /* libopencv_gpu.2.4.4.dylib in Frameworks */,
+				A4FCB5C7171493070062C756 /* libopencv_highgui.2.4.4.dylib in Frameworks */,
+				A4FCB5C8171493070062C756 /* libopencv_imgproc.2.4.4.dylib in Frameworks */,
+				A4FCB5C9171493070062C756 /* libopencv_legacy.2.4.4.dylib in Frameworks */,
+				A4FCB5CA171493070062C756 /* libopencv_ml.2.4.4.dylib in Frameworks */,
+				A4FCB5CB171493070062C756 /* libopencv_nonfree.2.4.4.dylib in Frameworks */,
+				A4FCB5CC171493070062C756 /* libopencv_objdetect.2.4.4.dylib in Frameworks */,
+				A4FCB5CD171493070062C756 /* libopencv_photo.2.4.4.dylib in Frameworks */,
+				A4FCB5CE171493070062C756 /* libopencv_stitching.2.4.4.dylib in Frameworks */,
+				A4FCB5CF171493070062C756 /* libopencv_ts.2.4.4.dylib in Frameworks */,
+				A4FCB5D0171493070062C756 /* libopencv_video.2.4.4.dylib in Frameworks */,
+				A4FCB5D1171493070062C756 /* libopencv_videostab.2.4.4.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4FCB59B1714781E0062C756 = {
+			isa = PBXGroup;
+			children = (
+				A4FCB5D2171493150062C756 /* Frameworks */,
+				A4FCB5A61714781E0062C756 /* HeadTrackingApiMacPort */,
+				A4FCB5A51714781E0062C756 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4FCB5A51714781E0062C756 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4FCB5A41714781E0062C756 /* HeadTrackingApiMacPort */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4FCB5A61714781E0062C756 /* HeadTrackingApiMacPort */ = {
+			isa = PBXGroup;
+			children = (
+				A4FCB5A71714781E0062C756 /* main.cpp */,
+				A4FCB5A91714781E0062C756 /* HeadTrackingApiMacPort.1 */,
+			);
+			path = HeadTrackingApiMacPort;
+			sourceTree = "<group>";
+		};
+		A4FCB5D2171493150062C756 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4FCB5B0171493070062C756 /* libopencv_calib3d.2.4.4.dylib */,
+				A4FCB5B1171493070062C756 /* libopencv_contrib.2.4.4.dylib */,
+				A4FCB5B2171493070062C756 /* libopencv_core.2.4.4.dylib */,
+				A4FCB5B3171493070062C756 /* libopencv_features2d.2.4.4.dylib */,
+				A4FCB5B4171493070062C756 /* libopencv_flann.2.4.4.dylib */,
+				A4FCB5B5171493070062C756 /* libopencv_gpu.2.4.4.dylib */,
+				A4FCB5B6171493070062C756 /* libopencv_highgui.2.4.4.dylib */,
+				A4FCB5B7171493070062C756 /* libopencv_imgproc.2.4.4.dylib */,
+				A4FCB5B8171493070062C756 /* libopencv_legacy.2.4.4.dylib */,
+				A4FCB5B9171493070062C756 /* libopencv_ml.2.4.4.dylib */,
+				A4FCB5BA171493070062C756 /* libopencv_nonfree.2.4.4.dylib */,
+				A4FCB5BB171493070062C756 /* libopencv_objdetect.2.4.4.dylib */,
+				A4FCB5BC171493070062C756 /* libopencv_photo.2.4.4.dylib */,
+				A4FCB5BD171493070062C756 /* libopencv_stitching.2.4.4.dylib */,
+				A4FCB5BE171493070062C756 /* libopencv_ts.2.4.4.dylib */,
+				A4FCB5BF171493070062C756 /* libopencv_video.2.4.4.dylib */,
+				A4FCB5C0171493070062C756 /* libopencv_videostab.2.4.4.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4FCB5A31714781E0062C756 /* HeadTrackingApiMacPort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4FCB5AD1714781E0062C756 /* Build configuration list for PBXNativeTarget "HeadTrackingApiMacPort" */;
+			buildPhases = (
+				A4FCB5A01714781E0062C756 /* Sources */,
+				A4FCB5A11714781E0062C756 /* Frameworks */,
+				A4FCB5A21714781E0062C756 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeadTrackingApiMacPort;
+			productName = HeadTrackingApiMacPort;
+			productReference = A4FCB5A41714781E0062C756 /* HeadTrackingApiMacPort */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4FCB59C1714781E0062C756 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = TLJ;
+			};
+			buildConfigurationList = A4FCB59F1714781E0062C756 /* Build configuration list for PBXProject "HeadTrackingApiMacPort" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A4FCB59B1714781E0062C756;
+			productRefGroup = A4FCB5A51714781E0062C756 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4FCB5A31714781E0062C756 /* HeadTrackingApiMacPort */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4FCB5A01714781E0062C756 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4FCB5A81714781E0062C756 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A4FCB5AB1714781E0062C756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A4FCB5AC1714781E0062C756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A4FCB5AE1714781E0062C756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = /opt/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A4FCB5AF1714781E0062C756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = /opt/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4FCB59F1714781E0062C756 /* Build configuration list for PBXProject "HeadTrackingApiMacPort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FCB5AB1714781E0062C756 /* Debug */,
+				A4FCB5AC1714781E0062C756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4FCB5AD1714781E0062C756 /* Build configuration list for PBXNativeTarget "HeadTrackingApiMacPort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FCB5AE1714781E0062C756 /* Debug */,
+				A4FCB5AF1714781E0062C756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4FCB59C1714781E0062C756 /* Project object */;
+}
