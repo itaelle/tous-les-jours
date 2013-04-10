@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A49B31E017154AC600C5211E /* libusb-1.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A49B31DF17154AC600C5211E /* libusb-1.0.0.dylib */; };
 		A4E3CC861714AE6F001553AA /* libopencv_calib3d.2.4.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3CC751714AE6F001553AA /* libopencv_calib3d.2.4.4.dylib */; };
 		A4E3CC871714AE6F001553AA /* libopencv_contrib.2.4.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3CC761714AE6F001553AA /* libopencv_contrib.2.4.4.dylib */; };
 		A4E3CC881714AE6F001553AA /* libopencv_core.2.4.4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E3CC771714AE6F001553AA /* libopencv_core.2.4.4.dylib */; };
@@ -42,6 +43,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A49B31DF17154AC600C5211E /* libusb-1.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libusb-1.0.0.dylib"; path = "HeadTrackingApiMacPort/Frameworks/libusb-1.0.0.dylib"; sourceTree = "<group>"; };
 		A4E3CC751714AE6F001553AA /* libopencv_calib3d.2.4.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_calib3d.2.4.4.dylib; path = HeadTrackingApiMacPort/Frameworks/libopencv_calib3d.2.4.4.dylib; sourceTree = "<group>"; };
 		A4E3CC761714AE6F001553AA /* libopencv_contrib.2.4.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_contrib.2.4.4.dylib; path = HeadTrackingApiMacPort/Frameworks/libopencv_contrib.2.4.4.dylib; sourceTree = "<group>"; };
 		A4E3CC771714AE6F001553AA /* libopencv_core.2.4.4.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.2.4.4.dylib; path = HeadTrackingApiMacPort/Frameworks/libopencv_core.2.4.4.dylib; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				A4E3CC941714AE6F001553AA /* libopencv_ts.2.4.4.dylib in Frameworks */,
 				A4E3CC951714AE6F001553AA /* libopencv_video.2.4.4.dylib in Frameworks */,
 				A4E3CC961714AE6F001553AA /* libopencv_videostab.2.4.4.dylib in Frameworks */,
+				A49B31E017154AC600C5211E /* libusb-1.0.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +138,7 @@
 				A4E3CC791714AE6F001553AA /* libopencv_flann.2.4.4.dylib */,
 				A4E3CC7A1714AE6F001553AA /* libopencv_gpu.2.4.4.dylib */,
 				A4E3CC7B1714AE6F001553AA /* libopencv_highgui.2.4.4.dylib */,
+				A49B31DF17154AC600C5211E /* libusb-1.0.0.dylib */,
 				A4E3CC7C1714AE6F001553AA /* libopencv_imgproc.2.4.4.dylib */,
 				A4E3CC7D1714AE6F001553AA /* libopencv_legacy.2.4.4.dylib */,
 				A4E3CC7E1714AE6F001553AA /* libopencv_ml.2.4.4.dylib */,
